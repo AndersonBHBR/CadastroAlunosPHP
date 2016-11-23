@@ -1,21 +1,17 @@
 <?php
+require "conexao.php";
 
 class AlunoDAO {
-    
-    private static $URL = "localhost";
-    private static $USUARIO = "andersonbhbr";
-    private static $SENHA = "12345";
-    private static $DATABASE = "escola";
-    
+
     public static function testeConexao() {
-        $conexao = new mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
+        $conexao = conectar();
         mysqli_close($conexao);
     }
     
     public static function buscar($args) {
-        $conexao = new mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
+        $conexao = conectar();
         $query = "SELECT * FROM aluno WHERE nome LIKE('%" . $args . "%') OR endereco LIKE('%" . $args . "%');";
-        $resultado = mysqli_query($query,$conexao);
+        $resultado = $conexao->query($query);
         $tudo = "";
         $separador = "";
         while ($linha = mysqli_fetch_array($resultado)) {
@@ -34,9 +30,9 @@ class AlunoDAO {
     }
     
     public static function find($id) {
-        $conexao = new mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
+        $conexao = conectar();
         $query = "SELECT * FROM aluno WHERE id = $id;";
-        $resultado = mysqli_query($query,$conexao);
+        $resultado = $conexao->query($query);
         mysqli_close($conexao);
         $aluno = new Aluno();
         while ($linha = mysqli_fetch_array($resultado)) {
@@ -50,10 +46,10 @@ class AlunoDAO {
     }
     
     public static function cadastrar(Aluno $aluno) {
-        $conexao = new mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
+        $conexao = conectar();
         $sql = "INSERT INTO aluno (nome, endereco, turma) "
                 . "VALUES ('" . $aluno->getNome() . "', '" . $aluno->getEndereco() . "', '" . $aluno->getTurma() . "');";
-        mysqli_query( $sql, $conexao );
+        $conexao->query($sql);
         mysqli_close($conexao);
         HistoricoDAO::cadastrar("Novo aluno foi cadastrado");
     }
@@ -64,16 +60,16 @@ class AlunoDAO {
         $sql = $sql . "endereco='" . $aluno->getEndereco() . "',";
         $sql = $sql . "turma='" . $aluno->getTurma() . "'";
         $sql = $sql . " WHERE id = " . $aluno->getId();
-        $conexao = mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
-        mysqli_query( $sql, $conexao );
+        $conexao = conectar();
+        $conexao->query($sql);
         HistoricoDAO::cadastrar("Alterar aluno com id " . $aluno->getId());
     }
 
     public static function excluir(Aluno $aluno) {
-        $conexao = mysqli_connect(AlunoDAO::$URL,AlunoDAO::$USUARIO,AlunoDAO::$SENHA,AlunoDAO::$DATABASE);
+        $conexao = conectar();
         $sql = "DELETE FROM aluno WHERE id=" . $aluno->getId();
         mysqli_query($conexao, $sql);
-        mysqli_close($conexao);
+        $conexao->query($sql);
         HistoricoDAO::cadastrar("Excluir aluno com id " . $aluno->getId());
     }
     
