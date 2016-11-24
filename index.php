@@ -5,6 +5,7 @@ include './AlunoDAO.php';
 include './Historico.php';
 include './HistoricoDAO.php';
 
+
 if (array_key_exists("comando", $_POST)) {
     if ($_POST['comando'] == "cadastrar") {
         $aluno = new Aluno();

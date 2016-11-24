@@ -9,5 +9,4 @@ function conectar(){
     return $con;
 }
 
-$conexao = conectar();
 ?>
