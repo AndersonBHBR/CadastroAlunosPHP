@@ -1,4 +1,4 @@
-CREATE TABLE aluno (
+CREATE TABLE alunos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
     endereco VARCHAR(100),

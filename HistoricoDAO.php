@@ -1,5 +1,4 @@
 <?php
-require "./conexao.php";
 
 class HistoricoDAO {
     
@@ -24,7 +23,7 @@ class HistoricoDAO {
             $separador = "##";
         }
         mysqli_close($conexao);
-        return $descricao = split("##",$tudo);
+        return $descricao = explode("##",$tudo);
     }
     
     public static function cadastrar($descricao) {

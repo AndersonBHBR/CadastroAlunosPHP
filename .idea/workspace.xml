@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8228880-04e2-45b8-9d91-6a4435f56a29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AlunoDAO.php" afterPath="$PROJECT_DIR$/AlunoDAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HistoricoDAO.php" afterPath="$PROJECT_DIR$/HistoricoDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tabelas.sql" afterPath="$PROJECT_DIR$/Tabelas.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conexao.php" afterPath="$PROJECT_DIR$/conexao.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pesquisar.php" afterPath="$PROJECT_DIR$/pesquisar.php" />
     </list>
     <ignored path="CadastroAlunosPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,31 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlunoDAO.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlunoDAO.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1377">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-              <folding>
-                <marker date="1479941844299" expanded="true" signature="260:350" placeholder="SELECT * FRO..aluno..." />
-                <marker date="1479941844299" expanded="true" signature="1040:1071" placeholder="SELECT * FRO..aluno..." />
-                <marker date="1479941844299" expanded="true" signature="1599:1761" placeholder="INSERT INTO ..." />
-                <marker date="1479941844299" expanded="true" signature="1968:1984" placeholder="UPDATE aluno..." />
-                <marker date="1479941844299" expanded="true" signature="2473:2500" placeholder="DELETE FROM ..." />
-              </folding>
+            <state vertical-scroll-proportion="31.26923" vertical-offset="966" max-vertical-offset="1649">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoricoDAO.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HistoricoDAO.php">
+      <file leaf-file-name="alterar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alterar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="731">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <marker date="1479941844283" expanded="true" signature="263:286" placeholder="SELECT * FRO..historico..." />
-                <marker date="1479941844283" expanded="true" signature="920:1004" placeholder="INSERT INTO ..." />
-              </folding>
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1632">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aluno.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aluno.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.769231" vertical-offset="150" max-vertical-offset="731">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,45 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.11703958" vertical-offset="0" max-vertical-offset="581">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlunoDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlunoDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1360">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <marker date="1479954213249" expanded="true" signature="235:326" placeholder="SELECT * FRO..aluno..." />
+                <marker date="1479954213249" expanded="true" signature="1018:1050" placeholder="SELECT * FRO..aluno..." />
+                <marker date="1479954213249" expanded="true" signature="1578:1741" placeholder="INSERT INTO ..." />
+                <marker date="1479954213249" expanded="true" signature="1948:1965" placeholder="UPDATE aluno..." />
+                <marker date="1479954213249" expanded="true" signature="2454:2482" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoricoDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HistoricoDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="714">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <marker date="1479953873153" expanded="true" signature="238:261" placeholder="SELECT * FRO..historico..." />
+                <marker date="1479953873153" expanded="true" signature="897:981" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pesquisar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pesquisar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.73077" vertical-offset="255" max-vertical-offset="1411">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -81,36 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aluno.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aluno.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="731">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.576923" vertical-offset="204" max-vertical-offset="1615">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cadastrar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -119,9 +129,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AlunoDAO.php" />
-        <option value="$PROJECT_DIR$/HistoricoDAO.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/HistoricoDAO.php" />
+        <option value="$PROJECT_DIR$/Tabelas.sql" />
+        <option value="$PROJECT_DIR$/pesquisar.php" />
+        <option value="$PROJECT_DIR$/AlunoDAO.php" />
         <option value="$PROJECT_DIR$/conexao.php" />
       </list>
     </option>
@@ -229,7 +241,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -279,11 +291,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479941844299" expanded="true" signature="260:350" placeholder="SELECT * FRO..aluno..." />
-            <marker date="1479941844299" expanded="true" signature="1040:1071" placeholder="SELECT * FRO..aluno..." />
-            <marker date="1479941844299" expanded="true" signature="1599:1761" placeholder="INSERT INTO ..." />
-            <marker date="1479941844299" expanded="true" signature="1968:1984" placeholder="UPDATE aluno..." />
-            <marker date="1479941844299" expanded="true" signature="2473:2500" placeholder="DELETE FROM ..." />
+            <marker date="1479954213249" expanded="true" signature="235:326" placeholder="SELECT * FRO..aluno..." />
+            <marker date="1479954213249" expanded="true" signature="1018:1050" placeholder="SELECT * FRO..aluno..." />
+            <marker date="1479954213249" expanded="true" signature="1578:1741" placeholder="INSERT INTO ..." />
+            <marker date="1479954213249" expanded="true" signature="1948:1965" placeholder="UPDATE aluno..." />
+            <marker date="1479954213249" expanded="true" signature="2454:2482" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -293,8 +305,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="731">
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
-            <marker date="1479941844283" expanded="true" signature="263:286" placeholder="SELECT * FRO..historico..." />
-            <marker date="1479941844283" expanded="true" signature="920:1004" placeholder="INSERT INTO ..." />
+            <marker date="1479953873153" expanded="true" signature="238:261" placeholder="SELECT * FRO..historico..." />
+            <marker date="1479953873153" expanded="true" signature="897:981" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -339,7 +351,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tabelas.sql">
+    <entry file="file://$PROJECT_DIR$/cadastrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.615385" vertical-offset="510" max-vertical-offset="1156">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Historico.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -349,58 +369,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excluir.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1632">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastrar.php">
+    <entry file="file://$PROJECT_DIR$/Tabelas.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HistoricoDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="731">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1479941844283" expanded="true" signature="263:286" placeholder="SELECT * FRO..historico..." />
-            <marker date="1479941844283" expanded="true" signature="920:1004" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.576923" vertical-offset="204" max-vertical-offset="1615">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aluno.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="31.26923" vertical-offset="966" max-vertical-offset="1649">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlunoDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1377">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <marker date="1479941844299" expanded="true" signature="260:350" placeholder="SELECT * FRO..aluno..." />
-            <marker date="1479941844299" expanded="true" signature="1040:1071" placeholder="SELECT * FRO..aluno..." />
-            <marker date="1479941844299" expanded="true" signature="1599:1761" placeholder="INSERT INTO ..." />
-            <marker date="1479941844299" expanded="true" signature="1968:1984" placeholder="UPDATE aluno..." />
-            <marker date="1479941844299" expanded="true" signature="2473:2500" placeholder="DELETE FROM ..." />
+            <marker date="1479954213249" expanded="true" signature="235:326" placeholder="SELECT * FRO..aluno..." />
+            <marker date="1479954213249" expanded="true" signature="1018:1050" placeholder="SELECT * FRO..aluno..." />
+            <marker date="1479954213249" expanded="true" signature="1578:1741" placeholder="INSERT INTO ..." />
+            <marker date="1479954213249" expanded="true" signature="1948:1965" placeholder="UPDATE aluno..." />
+            <marker date="1479954213249" expanded="true" signature="2454:2482" placeholder="DELETE FROM ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HistoricoDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="714">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <marker date="1479953873153" expanded="true" signature="238:261" placeholder="SELECT * FRO..historico..." />
+            <marker date="1479953873153" expanded="true" signature="897:981" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pesquisar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.73077" vertical-offset="255" max-vertical-offset="1411">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aluno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.769231" vertical-offset="150" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alterar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

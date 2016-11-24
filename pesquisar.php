@@ -62,7 +62,7 @@
             <?php
                 $alunos = AlunoDAO::buscar($pesquisa);
                 for($i = 0;$i < count($alunos);$i++) {
-                    $aluno = split('&&',$alunos[$i]);
+                    $aluno = explode('&&',$alunos[$i]);
                     if(count($aluno) > 2) {
                         echo "<tr>";
                         echo "<td>$aluno[0]";

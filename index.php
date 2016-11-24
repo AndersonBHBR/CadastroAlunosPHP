@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <?php
+include './conexao.php';
 include './Aluno.php';
 include './AlunoDAO.php';
 include './Historico.php';
 include './HistoricoDAO.php';
+
 
 
 if (array_key_exists("comando", $_POST)) {
@@ -75,7 +77,7 @@ if (array_key_exists("comando", $_POST)) {
                     <?PHP
                         $historicos = HistoricoDAO::buscar();
                         for ($i = count($historicos) - 1; $i >= 0; $i--) {
-                            $historico = split("&&", $historicos[$i]);
+                            $historico = explode("&&", $historicos[$i]);
                             if (count($historico) == 3) {
                                 echo "<tr><td>" . $historico[1] . "<td>" . $historico[2] . "</tr>";
                             } else {
