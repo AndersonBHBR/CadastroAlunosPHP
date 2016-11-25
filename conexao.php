@@ -2,7 +2,7 @@
 function conectar(){
     $URL = "localhost";
     $USUARIO = "andersonbhbr";
-    $SENHA = "12345";
+    $SENHA = "loverei169";
     $DATABASE = "escola";
 
     $con = new mysqli($URL, $USUARIO, $SENHA, $DATABASE);
