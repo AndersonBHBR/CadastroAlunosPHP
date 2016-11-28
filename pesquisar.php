@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <?php
-    include_once './Aluno.php';
-    include_once './AlunoDAO.php';
+    include './conexao.php';
+    include './Aluno.php';
+    include './AlunoDAO.php';
+    include './Historico.php';
+    include './HistoricoDAO.php';
     
     $pesquisa = "";
     if(array_key_exists("pesquisa",$_POST)) {

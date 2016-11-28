@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<?php 
+<?php
+    include './conexao.php';
     include './Aluno.php';
     include './AlunoDAO.php';
+    include './Historico.php';
+    include './HistoricoDAO.php';
 
     $aluno = new Aluno();
     if(array_key_exists("id",$_POST)) {
